@@ -1,0 +1,33 @@
+@import "/src/styles/themes/colors";
+@import "/src/styles/themes/media";
+
+.wrapper {
+  min-height: 3px;
+}
+
+.range {
+  -webkit-appearance: none;
+  height: 3px;
+  padding: 0 !important;
+  border-radius: 1px;
+  width: 100%;
+  background-color: $white;
+  background-repeat: no-repeat;
+
+  &_active {
+    height: 1px !important;
+  }
+
+  @include mediaMaxWidth(1206px) {
+    width: 1000px;
+  }
+
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #ff9514;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,53 @@
+@import "src/styles/themes/fonts";
+@import "src/styles/themes/colors";
+@import "src/styles/themes/media";
+
+.button {
+  background-color: $orange;
+  border: none;
+  border-radius: 40px;
+  height: 68px;
+  width: 24rem;
+  cursor: pointer;
+
+  &__disabled {
+    background-color: $orange;
+    pointer-events: none;
+  }
+
+  &__loading {
+    background-color: #111111;
+  }
+
+
+  @include mediaMaxWidth(1420px) {
+    width: 345px;
+    margin-top: 44px;
+  }
+
+  @include mediaMaxWidth(424px) {
+    width: 100%;
+  }
+
+  &:hover {
+    background-color: $black;
+    transition: 0.5s;
+  }
+
+  &:active {
+    background-color: $grey;
+    transition: 0.1s;
+  }
+
+  &__text {
+  font: 30px/36px $primaryFont;
+    color: $white;
+
+    @include mediaMaxWidth(424px) {
+      width: 100%;
+      font: 22px/20px $primaryFont;
+    }
+  }
+}
+
+

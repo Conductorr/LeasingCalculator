@@ -1,0 +1,26 @@
+@import "src/styles/themes/colors";
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.MuiSlider-dragging {
+  height: 1px !important;
+}
+
+.MuiSlider-rail {
+  background-color: $sliderGrey !important;
+  opacity: 1 !important;
+  height: 2px !important;
+}
+
+.MuiSlider-thumb {
+  box-shadow: none !important;
+
+  &:hover {
+    box-shadow: none !important;
+  }
+}

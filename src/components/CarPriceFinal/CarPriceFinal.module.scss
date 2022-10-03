@@ -1,0 +1,70 @@
+@import "src/styles/themes/fonts";
+@import "src/styles/themes/colors";
+@import "src/styles/themes/media";
+
+.container {
+
+  &__wrapper {
+    display:  flex;
+    flex-direction: column;
+  }
+
+
+  @include mediaMaxWidth(1420px) {
+    justify-content: space-between;
+  }
+
+  &__heading {
+    font: 16px/16px $secondaryFont;
+
+    @include mediaMaxWidth(424px) {
+      font: 14px/16px $secondaryFont;
+    }
+  }
+
+  &__value {
+    display: flex;
+    margin-top: 8px;
+    width: 30rem;
+
+
+    @include mediaMaxWidth(1420px) {
+      width: 270px;
+    }
+
+    @include mediaMaxWidth(830px) {
+      width: 100%;
+    }
+
+    &__input {
+      border: none;
+      font: 54px/90% $primaryFont;
+      color: $grey;
+      align-items: center;
+      width: 100%;
+      position: relative;
+
+      @include mediaMaxWidth(1420px) {
+        width: 100%;
+        color: $darkGrey;
+      }
+
+      @include mediaMaxWidth(424px) {
+        font: 22px/20px $primaryFont;
+        color: $mobileGrey;
+        width: 100%;
+      }
+
+      &__indicator {
+        position: absolute;
+        margin-left: 20px;
+        top: -5px;
+
+        @include mediaMaxWidth(424px) {
+          margin-left: 10px;
+          top: -2px;
+        }
+      }
+    }
+  }
+}
