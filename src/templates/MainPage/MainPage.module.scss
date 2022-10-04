@@ -15,7 +15,7 @@
   margin: auto;
 
   &__header {
-    font: 54px/42px 'Nekst';
+    font: 54px/42px $primaryFont;
     width: 753px;
 
     @include mediaMaxWidth(1420px) {
@@ -27,7 +27,7 @@
     }
 
     @include mediaMaxWidth(424px) {
-      font: 34px/90% 'Nekst';
+      font: 34px/90% $primaryFont;
       color: $black;
       width: 70%;
     }
