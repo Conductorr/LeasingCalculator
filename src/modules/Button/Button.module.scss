@@ -40,7 +40,7 @@
   }
 
   &__text {
-  font: 30px/36px $primaryFont;
+  font: 30px/36px Nekst;
     color: $white;
 
     @include mediaMaxWidth(424px) {
