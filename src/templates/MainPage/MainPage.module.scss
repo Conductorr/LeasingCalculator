@@ -15,7 +15,7 @@
   margin: auto;
 
   &__header {
-    font: 54px/42px 'Nekst;
+    font: 54px/42px 'Nekst';
     width: 753px;
 
     @include mediaMaxWidth(1420px) {
