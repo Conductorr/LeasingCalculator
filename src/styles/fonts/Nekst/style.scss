@@ -1,10 +1,9 @@
 @font-face {
-    font-family: 'Nekst';
-    src: local('Nekst'), local('Nekst'),
-        url('src/styles/fonts/Nekst/Nekst-Black.woff2') format('woff2'),
-        url('src/styles/fonts/Nekst/Nekst-Black.woff') format('woff'),
-        url('src/styles/fonts/Nekst/Nekst-Black.ttf') format('truetype'),
-        url('src/styles/fonts/Nekst/Fontspring-DEMO-nekst-black.otf') format('otf');
-    font-weight: 900;
-    font-style: normal;
-  }
+  font-family: "Nekst";
+  src: url("Nekst-Black.woff2") format("woff2"),
+    url("Nekst-Black.woff") format("woff"),
+    url("Nekst-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
