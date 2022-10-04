@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Nekst';
-    src: local('Nekst Black'), local('Nekst-Black'),
+    src: local('Nekst'), local('Nekst'),
         url('Nekst-Black.woff2') format('woff2'),
         url('Nekst-Black.woff') format('woff'),
         url('Nekst-Black.ttf') format('truetype');
