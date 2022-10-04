@@ -1,4 +1,4 @@
-@import 'src/styles/themes/fonts';
+@import 'src/styles/themes/fonts/Nekst';
 @import "src/styles/themes/media";
 @import "src/styles/themes/colors";
 
@@ -15,7 +15,7 @@
   margin: auto;
 
   &__header {
-    font: 54px/42px "Nekst";
+    font: 54px/42px 'Nekst;
     width: 753px;
 
     @include mediaMaxWidth(1420px) {
@@ -27,7 +27,7 @@
     }
 
     @include mediaMaxWidth(424px) {
-      font: 34px/90% $primaryFont;
+      font: 34px/90% 'Nekst;
       color: $black;
       width: 70%;
     }
