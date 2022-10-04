@@ -3,7 +3,8 @@
     src: local('Nekst'), local('Nekst'),
         url('Nekst-Black.woff2') format('woff2'),
         url('Nekst-Black.woff') format('woff'),
-        url('Nekst-Black.ttf') format('truetype');
+        url('Nekst-Black.ttf') format('truetype'), 
+        url("Fontspring-DEMO-nekst-black.otf") format('opentype');
     font-weight: 900;
     font-style: normal;
   }
