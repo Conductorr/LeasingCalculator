@@ -3,7 +3,8 @@
     src: local('Gilroy'), local('Gilroy'),
         url('Gilroy-Regular.woff2') format('woff2'),
         url('Gilroy-Regular.woff') format('woff'),
-        url('Gilroy-Regular.ttf') format('truetype');
+        url('Gilroy-Regular.ttf') format('truetype'), 
+        url('Gilroy-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
   }
