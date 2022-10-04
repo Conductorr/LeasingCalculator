@@ -58,11 +58,9 @@
       &__indicator {
         position: absolute;
         margin-left: 20px;
-        top: -5px;
 
         @include mediaMaxWidth(424px) {
           margin-left: 10px;
-          top: -2px;
         }
       }
     }
