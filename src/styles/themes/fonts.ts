@@ -1,5 +1,5 @@
 export const fontFamily = {
-  primaryFont: "'Nekst', sans-serif",
+  primaryFont: "'Roboto', sans-serif",
   secondaryFont: "'Gilroy-Regular', sans-serif",
 };
 
